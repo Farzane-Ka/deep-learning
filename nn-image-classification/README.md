@@ -2,7 +2,7 @@ The order of functions to make a nueral network model for classification:
 
 1)Train with the function:
 
-  1) L_layer_model(X, Y, layers_dims, learning_rate = 0.0075, num_iterations = 3000, print_cost=False)
+  - L_layer_model(X, Y, layers_dims, learning_rate = 0.0075, num_iterations = 3000, print_cost=False)
   2) This function first initializes the parameters W (weights) and b (bias) to random values.
   
   3) For num_iterations, we loop through and compute the gradient decent for the cost function:
