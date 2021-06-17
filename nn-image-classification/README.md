@@ -14,6 +14,6 @@ The order of functions to make a nueral network model for classification:
 2) To make a model for training:
     - parameters, costs = L_layer_model(train_x, train_y, layers_dims, num_iterations = 3000, print_cost = False)
     
-3) to compute the accuracy:
+3) To compute the accuracy:
     - pred_train = predict(train_x, train_y, parameters)
   
