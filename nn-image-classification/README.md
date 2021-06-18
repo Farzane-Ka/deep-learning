@@ -6,7 +6,7 @@ The order of functions to make a nueral network model for classification:
    * train_x, train_y, test_x, test_y, classes = load_data()
 4) Define the layers, where layers_dim is an array: 
    * layers_dims = [12288, 20, 7, 5, 1] #  4-layer model
-6) Train the model: 
+6) Train the model with the function L_layer_model(): 
    * parameters, costs = L_layer_model(train_x, train_y, layers_dims, num_iterations = 2500, print_cost = True) (GOTO [a link](https://github.com/Farzane-Ka/deep-learning/blob/main/nn-image-classification/L-layer-learning) )
    * This function first initializes the parameters W (weights) and b (bias) to random values.
   
