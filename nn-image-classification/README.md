@@ -12,7 +12,6 @@ The order of functions to make a nueral network model for classification:
   
    * For num_iterations, loops through and computes the gradient decent for the cost function:
     * makes a forward propagation (using Relu for layers 1 to L-1, and sigmoid for L), computes the cost, makes a backward propagation:
-  
      * AL, caches = L_model_forward(X, parameters) (GOTO [a link](https://github.com/Farzane-Ka/deep-learning/blob/main/nn-image-classification/L-model-design))
      * cost=compute_cost(AL, Y) (GOTO [a link]( https://github.com/Farzane-Ka/deep-learning/blob/main/nn-image-classification/cost-function))
      * grads= L_model_backward(AL, Y, caches) (GOTO [a link](https://github.com/Farzane-Ka/deep-learning/blob/main/nn-image-classification/L-model-backward-propagation))
