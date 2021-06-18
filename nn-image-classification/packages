@@ -1,9 +1,12 @@
+
+import time
 import numpy as np
-import h5py
-%access to datasets
+import h5py # access to datasets
 import matplotlib.pyplot as plt
-from testCases import *
-from dnn_utils import sigmoid, sigmoid_backward, relu, relu_backward
+import scipy
+from PIL import Image
+from scipy import ndimage
+from dnn_app_utils_v3 import *
 from public_tests import *
 
 %matplotlib inline
@@ -11,5 +14,7 @@ plt.rcParams['figure.figsize'] = (5.0, 4.0) # set default size of plots
 plt.rcParams['image.interpolation'] = 'nearest'
 plt.rcParams['image.cmap'] = 'gray'
 
-np.random.seed(1)
-%enables NumPy to generate pseudo-random numbers
+%load_ext autoreload
+%autoreload 2
+
+np.random.seed(1) #enables NumPy to generate pseudo-random numbers
