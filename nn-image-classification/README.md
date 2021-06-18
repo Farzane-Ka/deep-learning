@@ -1,4 +1,4 @@
-## This is a project for classifying cat images. A binary classification with L layer neural networls is used.##<br />
+## Defining an L-layer neural network to classify cat images.<br />
 The order of functions to make a nueral network model for classification:
 
 1) Train with the function: L_layer_model(X, Y, layers_dims, learning_rate = 0.0075, num_iterations = 3000, print_cost=False)
