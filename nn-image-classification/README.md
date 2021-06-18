@@ -1,7 +1,7 @@
 ## Defining an L-layer Neural Network to classify cat images<br />
 The order of functions to make a nueral network model for classification:
 
-1) Begin by importing required packages (GOTO [a link](https://https://github.com/Farzane-Ka/deep-learning/blob/main/nn-image-classification/packages) )
+1) Begin by importing required packages (GOTO [a link](https://github.com/Farzane-Ka/deep-learning/blob/main/nn-image-classification/packages) )
 1) Train with the function: L_layer_model(X, Y, layers_dims, learning_rate = 0.0075, num_iterations = 3000, print_cost=False)
    * This function first initializes the parameters W (weights) and b (bias) to random values.
   
