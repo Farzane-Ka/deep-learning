@@ -1,4 +1,5 @@
 ## Defining an L-layer Neural Network to classify cat images<br />
+Usinng Jupyter notebook.
 The order of functions to make a nueral network model for classification:
 
 1) Begin by importing required packages (GOTO [a link](https://github.com/Farzane-Ka/deep-learning/blob/main/nn-image-classification/packages) )
